@@ -23,9 +23,6 @@ function App() {
 
   const onDelete = (todo) => {
     console.log("I am onDeleteof todo", todo);
-    /* Deleting this way in react does not work */
-    // let index = todos.indexOf(todo);
-    // todos.splice(index, 1);
 
     setTodost(todos.filter((e) => {
       return e !== todo;
